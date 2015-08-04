@@ -19,8 +19,6 @@ curl http://get.pharo.org/$PHARO+$VM | bash
 
 ./pharo Pharo.image save "$JOB_NAME" --delete-old
 ./pharo "$JOB_NAME.image" --version > version.txt
-
-./pharo $JOB_NAME.image config "http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main" ConfigurationOfGitFileTree --install="stable" 
 ./pharo $JOB_NAME.image eval "Metacello new baseline: #${PROJECT}; repository: '$REPO'; load. Smalltalk saveSession"
 
 ./pharo-ui "$JOB_NAME.image" &
