@@ -1,0 +1,14 @@
+{
+	"category" : "RESTAnnouncer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "RESTAnnouncer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
