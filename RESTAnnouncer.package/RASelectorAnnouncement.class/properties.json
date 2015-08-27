@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "mikefilonov 8/27/2015 12:40",
+	"commentStamp" : "mikefilonov 8/27/2015 14:22",
 	"instvars" : [
-		"symbol" ],
-	"name" : "RASymbolAnnouncementClass",
+		"selector" ],
+	"name" : "RASelectorAnnouncement",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Announcement",
 	"type" : "normal" }

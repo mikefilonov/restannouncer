@@ -3,15 +3,15 @@ testAnnouncer
 	|announcer|
 	announcer := Announcer new.
 	announcer 
-		when: (RASymbolAnnouncementClass on: #FileUpload) 
+		when: (RASelectorAnnouncement when: #FileUpload) 
 		do: [ :a | Exception signal ].
 	
 	self 
-		should: [ announcer announce: (RASymbolAnnouncement on: #FileUpload) ]
+		should: [ announcer announce: (RASelectorAnnouncement withSelector: #FileUpload andData: {}) ]
 		raise: Exception.
 		
 
 	self 
-		shouldnt: [ announcer announce: (RASymbolAnnouncement on: #FileModified) ]
+		shouldnt: [ announcer announce: (RASelectorAnnouncement withSelector: #FileModified andData: {}) ]
 		raise: Exception.
 	

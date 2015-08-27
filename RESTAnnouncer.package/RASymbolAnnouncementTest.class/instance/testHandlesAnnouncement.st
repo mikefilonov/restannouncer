@@ -1,7 +1,7 @@
 as yet unclassified
 testHandlesAnnouncement
 	|announcementClass|
-	announcementClass := RASymbolAnnouncementClass on: #FileUploaded.
+	announcementClass := RASelectorAnnouncement when: #FileUploaded.
 	
- 	self assert: (announcementClass handlesAnnouncement: (RASymbolAnnouncement on: #FileUploaded)).
-	self assert: (announcementClass handlesAnnouncement: (RASymbolAnnouncement on: #FileModified)) not.
+ 	self assert: (announcementClass handlesAnnouncement: (RASelectorAnnouncement withSelector: #FileUploaded andData: {})).
+	self assert: (announcementClass handlesAnnouncement: (RASelectorAnnouncement withSelector: #FileModified andData: {})) not.

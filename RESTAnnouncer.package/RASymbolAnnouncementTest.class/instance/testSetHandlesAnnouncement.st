@@ -1,8 +1,8 @@
 as yet unclassified
 testSetHandlesAnnouncement
 	|announcementClassSet|
-	announcementClassSet := (RASymbolAnnouncementClass on: #FileUploaded), (RASymbolAnnouncementClass on: #FileModified).
+	announcementClassSet := (RASelectorAnnouncement when: #FileUploaded), (RASelectorAnnouncement when: #FileModified).
 	
- 	self assert: (announcementClassSet handlesAnnouncement: (RASymbolAnnouncement on: #FileUploaded)).
- 	self assert: (announcementClassSet handlesAnnouncement: (RASymbolAnnouncement on: #FileModified)).
- 	self assert: (announcementClassSet handlesAnnouncement: (RASymbolAnnouncement on: #FileDeleted)) not.	
+ 	self assert: (announcementClassSet handlesAnnouncement: (RASelectorAnnouncement withSelector: #FileUploaded andData: {})).
+ 	self assert: (announcementClassSet handlesAnnouncement: (RASelectorAnnouncement withSelector: #FileModified andData: {})).
+ 	self assert: (announcementClassSet handlesAnnouncement: (RASelectorAnnouncement withSelector: #FileDeleted andData: {})) not.	
