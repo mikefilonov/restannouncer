@@ -1,0 +1,1 @@
+Send and receive back a selector announcement

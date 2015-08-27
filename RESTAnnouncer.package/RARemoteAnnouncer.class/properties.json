@@ -4,11 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "mikefilonov 8/27/2015 17:43",
 	"instvars" : [
-		"announcerRouter",
-		"teapot" ],
-	"name" : "RATeapotController",
+		"url" ],
+	"name" : "RARemoteAnnouncer",
 	"pools" : [
 		 ],
 	"super" : "Object",

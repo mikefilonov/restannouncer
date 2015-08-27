@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testAnnouncer" : "mikefilonov 8/27/2015 14:48",
-		"testAnnouncerRouter" : "mikefilonov 8/27/2015 17:31",
-		"testHandlesAnnouncement" : "mikefilonov 8/27/2015 14:48",
-		"testSetHandlesAnnouncement" : "mikefilonov 8/27/2015 14:48" } }
+		"testAnnouncer" : "mikefilonov 8/27/2015 18:07",
+		"testAnnouncerRouter" : "mikefilonov 8/27/2015 18:13",
+		"testHandlesAnnouncement" : "mikefilonov 8/27/2015 18:04",
+		"testHandlesAnnouncementSet" : "mikefilonov 8/27/2015 18:05",
+		"testRemoteAnnouncementNegative" : "mikefilonov 8/27/2015 18:22",
+		"testRemoteAnnouncementPositive" : "mikefilonov 8/27/2015 18:21" } }

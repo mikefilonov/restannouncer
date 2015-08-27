@@ -2,9 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"announceRequest:" : "mikefilonov 8/27/2015 17:14",
+		"announceRequest:" : "mikefilonov 8/27/2015 17:51",
 		"configureTeapot:" : "mikefilonov 8/27/2015 17:08",
 		"router" : "mikefilonov 8/27/2015 17:13",
 		"router:" : "mikefilonov 8/27/2015 17:13",
 		"start" : "mikefilonov 8/27/2015 17:00",
-		"startOn:" : "mikefilonov 8/27/2015 17:00" } }
+		"startOn:" : "mikefilonov 8/27/2015 17:58",
+		"stop" : "mikefilonov 8/27/2015 17:59" } }

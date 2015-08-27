@@ -1,10 +1,13 @@
 {
 	"class" : {
+		"fromEntity:" : "mikefilonov 8/27/2015 17:46",
 		"selectorClass:" : "mikefilonov 8/27/2015 14:21",
 		"when:" : "mikefilonov 8/27/2015 14:47",
-		"withSelector:andData:" : "mikefilonov 8/27/2015 16:08" },
+		"withSelector:" : "mikefilonov 8/27/2015 18:02",
+		"withSelector:andData:" : "mikefilonov 8/27/2015 17:51" },
 	"instance" : {
 		"asDictionary" : "mikefilonov 8/27/2015 17:14",
+		"asEntity" : "mikefilonov 8/27/2015 17:39",
 		"at:" : "mikefilonov 8/27/2015 17:15",
 		"at:put:" : "mikefilonov 8/27/2015 17:15",
 		"dataObject" : "mikefilonov 8/27/2015 16:07",

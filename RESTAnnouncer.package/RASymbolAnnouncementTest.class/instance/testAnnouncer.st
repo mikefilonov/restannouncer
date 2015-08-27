@@ -1,17 +1,17 @@
 as yet unclassified
 testAnnouncer
-	|announcer|
+	|announcer a1 a2|
 	announcer := Announcer new.
 	announcer 
 		when: (RASelectorAnnouncement when: #FileUpload) 
-		do: [ :a | Exception signal ].
-	
-	self 
-		should: [ announcer announce: (RASelectorAnnouncement withSelector: #FileUpload andData: {}) ]
-		raise: Exception.
+		do: [ :a | a at: #ok put: true ].
 		
+	a1 := (RASelectorAnnouncement withSelector: #FileUpload andData: {#ok->false}).
+	announcer announce: a1.
+	self assert: (a1 at: #ok).
 
-	self 
-		shouldnt: [ announcer announce: (RASelectorAnnouncement withSelector: #FileModified andData: {}) ]
-		raise: Exception.
-	
+
+	a2 := (RASelectorAnnouncement withSelector: #FileModified andData: {#ok->false}).
+	announcer announce: a2.
+	self assert: (a2 at: #ok) not.
+

@@ -2,23 +2,16 @@ as yet unclassified
 testAnnouncerRouter
 	|router|
 	router := RAAnnouncerRouter new.
-	router newAnnouncer: #some.
-	router newAnnouncer: #someother.
+	router newAnnouncer: #first.
+	router newAnnouncer: #other.
 	
-	router when: #FileUpload on: #some do: [: a | Exception signal]. 
-	router when: #FileModified on: #someother do: [: a | Exception signal ].
+	router when: #FileUpload on: #first do: [: a | a at: #handler put: #first ]. 
+	router when: #FileModified on: #other do: [: a | a at: #handler put: #other ].
 	
-	self 
-		should: [ router announce: #FileUpload on: #some with: {} ]
-		raise: Exception.
-		
-	self 
-		should: [ router announce: #FileModified on: #someother with: {} ]
-		raise: Exception.
-		
-	self 
-		shouldnt: [ router announce: #FileUpload on: #someother with: {} ]
-		raise: Exception.
-
+	self assert: ((router announce: (RASelectorAnnouncement withSelector: #FileUpload) on: #first) at: #handler) equals: 
+#first.
+	self assert: ((router announce: (RASelectorAnnouncement withSelector: #FileModified) on: #other) at: #handler) equals: 
+#other.
+	self should: [(router announce: (RASelectorAnnouncement withSelector: #FileModified) on: #first) at: #handler] raise: KeyNotFound   
 
 
