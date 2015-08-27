@@ -6,5 +6,6 @@
 		"testAnnouncerRouter" : "mikefilonov 8/27/2015 18:13",
 		"testHandlesAnnouncement" : "mikefilonov 8/27/2015 18:04",
 		"testHandlesAnnouncementSet" : "mikefilonov 8/27/2015 18:05",
+		"testRemoteAnnouncementMany" : "mikefilonov 8/27/2015 18:39",
 		"testRemoteAnnouncementNegative" : "mikefilonov 8/27/2015 18:22",
 		"testRemoteAnnouncementPositive" : "mikefilonov 8/27/2015 18:21" } }
