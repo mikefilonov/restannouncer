@@ -1,0 +1,1 @@
+A trick to handle SymbolAnnouncements using symbols instead of classes

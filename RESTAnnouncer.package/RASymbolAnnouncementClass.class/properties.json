@@ -1,0 +1,14 @@
+{
+	"category" : "RESTAnnouncer",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "mikefilonov 8/27/2015 12:40",
+	"instvars" : [
+		"symbol" ],
+	"name" : "RASymbolAnnouncementClass",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
