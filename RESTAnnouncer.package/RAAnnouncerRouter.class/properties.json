@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "mikefilonov 8/27/2015 17:26",
 	"instvars" : [
-		"announcerRouter" ],
-	"name" : "RATeapotController",
+		"announcers" ],
+	"name" : "RAAnnouncerRouter",
 	"pools" : [
 		 ],
 	"super" : "Object",
