@@ -20,4 +20,4 @@ baseline: spec
 
 
 
-		spec package: #RESTAnnouncer. ].
+		spec package: #RESTAnnouncer; package: #'RESTAnnouncer-Automata' ].
