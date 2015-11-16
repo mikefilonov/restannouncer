@@ -12,5 +12,12 @@ baseline: spec
 				spec
 					className: #ConfigurationOfNeoJSON;
 					versionString: #'stable';
-					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ].
+					repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo40/main/' ];
+			 project: 'Automata' with: [
+				spec
+					className: #BaselineOfAutomata;
+					repository: 'github://mikefilonov/automata:master' ].
+
+
+
 		spec package: #RESTAnnouncer. ].
