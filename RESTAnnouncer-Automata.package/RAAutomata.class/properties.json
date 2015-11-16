@@ -1,0 +1,14 @@
+{
+	"category" : "RESTAnnouncer-Automata",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"pendingTasks" ],
+	"name" : "RAAutomata",
+	"pools" : [
+		 ],
+	"super" : "AMTaskManager",
+	"type" : "normal" }
