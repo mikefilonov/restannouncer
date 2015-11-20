@@ -4,4 +4,6 @@
 	"instance" : {
 		"addPendingTask:withState:withCondition:" : "mikefilonov 11/16/2015 16:39",
 		"incomingEvent:" : "mikefilonov 11/16/2015 16:45",
-		"pendingTasks" : "mikefilonov 11/16/2015 16:40" } }
+		"pendingTasks" : "mikefilonov 11/16/2015 16:40",
+		"removeAll" : "mikefilonov 11/20/2015 17:15",
+		"subscribeOn:" : "mikefilonov 11/16/2015 17:12" } }
