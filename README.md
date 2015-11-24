@@ -34,6 +34,14 @@ RARemoteAnnouncer new
 
 ```
 
+# Event JSON
+```json
+{
+"selector": "SelectorID",
+"data": {"param1": "value1", "param2": "value2"}
+}
+```
+
 # RESTAnnouncer - Automata
 The project provides an implementation of automata task manager to allow user running event-driven workflows.
 
