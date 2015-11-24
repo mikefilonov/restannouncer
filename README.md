@@ -1,6 +1,11 @@
 # RESTAnnouncer
 
-Event framework for sending and recieving announcements via HTTP and JSON.
+Event framework for sending and recieving announcements via HTTP/JSON.
+
+##Installation
+```smalltalk
+Metacello new baseline: #Automata; repository: 'github://mikefilonov/automata'; load.
+```
 
 ##Quick start
 
