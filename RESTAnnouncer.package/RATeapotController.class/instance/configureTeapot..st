@@ -1,4 +1,4 @@
 as yet unclassified
-configureTeapot: teapot
-	teapot
+configureTeapot: aTeapot
+	aTeapot
 		POST: '/api/<announcerName>' -> [ :req | self announceRequest: req ].
